@@ -17,6 +17,20 @@ This is part of my **HTML & CSS learning journey**, and more landing pages will 
 
 ---
 
+## 📸 Preview
+
+### 🖥️ Desktop View
+![Desktop 1](./screenshots/desktop_1.png)
+![Desktop 2](./screenshots/desktop_2.png)
+![Desktop 3](./screenshots/desktop_3.png)
+
+### 📱 Mobile View
+![Mobile 1](./screenshots/mobile_1.png)
+![Mobile 2](./screenshots/mobile_2.png)
+![Mobile 3](./screenshots/mobile_3.png)
+
+---
+
 ## 🛠️ Tech Stack Used
 
 - **HTML5**
@@ -97,5 +111,6 @@ Frontend Developer (Learning in Public 🚀)
 > This project is part of my HTML & CSS playground repository, where I document my growth through hands-on practice.
 
 ---
+
 
 ⭐ If you like this project, feel free to explore the repository and follow my journey.
