@@ -33,7 +33,7 @@ This is part of my **HTML & CSS learning journey**, and more landing pages will 
 
 ## 🔗 Live Demo
 
-👉 https://your-username.github.io/html-css-playground/landing-pages/landing-page-01/
+👉 https://vishalloop.github.io/html-css-playground/landing-pages/landing-page-01/
 
 ---
 
@@ -120,4 +120,5 @@ Frontend Developer (Learning in Public 🚀)
 
 
 ⭐ If you like this project, feel free to explore the repository and follow my journey.
+
 
