@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  /* border: 2px solid red; */
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+} 
+
+.nav-part-2{
+  display: flex;
+  gap: 30px;
+}
+
+.logo{
+  font-size: 2rem;  
+  font-family: "BBH Bogle", sans-serif;
+  color: white;
+}
+
+.nav-part-2 p{
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Caveat Brush", cursive;
+  cursor: pointer;
+}
+
+.nav-part-2 p:hover{
+  border-bottom: 1px solid orange;
+}
+
+.menu{
+  font-size: 1.5rem;
+  display: none;
+  color: white;
+}
+
+.top{
+  background-image: url("./images/background.jpg");
+  width: 100%;
+  height: calc(100% - 10vh);
+  background-position: 50% 63%;
+  background-size: cover ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-main{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 400px;
+}
+
+.text-top{
+  font-size: 4rem;
+  color: white;
+  font-family: "Rubik Bubbles", system-ui;
+}
+
+.text-bottom{
+  font-size: 3.5rem;
+  color: white;
+  font-family: "Rubik Bubbles", system-ui;
+  transform: translateY(50px);
+}
+
+.shop_now{
+  padding:1.2rem;
+  background-color: #deab5f;
+  border:none;
+  font-family: "Caveat Brush", cursive;
+  font-size: 2rem;
+  border-radius: 1.2rem;
+  cursor: pointer;
+}
+
+.our-story{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text-our-story{
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+.our-story-content p{
+  font-size: 1.3rem;
+  color: white;
+  font-family: "Caveat Brush", cursive;
+  width: 90%;
+}
+
+.learn-more{
+  padding:1.2rem;
+  background-color: #deab5f;
+  border:none;
+  font-family: "Caveat Brush", cursive;
+  font-size: 2rem;
+  border-radius: 1.2rem;
+  cursor: pointer;
+  width: 50%;
+}
+
+.our-story-content{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.enjoy{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text-enjoy{
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+.enjoy-content p{
+  font-size: 1.3rem;
+  color: white;
+  font-family: "Caveat Brush", cursive;
+  width: 90%;
+}
+
+.learn-more{
+  padding:1.2rem;
+  background-color: #deab5f;
+  border:none;
+  font-family: "Caveat Brush", cursive;
+  font-size: 2rem;
+  border-radius: 1.2rem;
+  cursor: pointer;
+  width: 50%;
+}
+
+.enjoy-content{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.img-enjoy img{
+  width: 28vw;
+}
+
+.products{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
+
+.product-text{
+  font-size: 5rem;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 1.5vw;
+}
+
+.product-cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.card-1{
+  border: 2px solid wheat;
+  color: white;
+  height: 50vmin;
+  width: 16rem;
+  padding: 1.5vw;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  position: relative;
+}
+
+.card-1 p{
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 1vw;
+  transform: translateY(50px);
+}
+
+.card-1 ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 20px;
+}
+
+.card-1 ul li{
+  font-size: 1.2rem;
+}
+
+.product-learn-more{
+  padding: 0.5vw 0vw;
+  background-color: #deab5f;
+  border:none;
+  font-family: "Caveat Brush", cursive;
+  font-size: 2rem;
+  border-radius: 1.2rem;
+  cursor: pointer;
+  width: 50%;
+}
+
+.card-2{
+  border: 2px solid wheat;
+  color: white;
+  height: 50vmin;
+  width: 16rem;
+  padding: 1.5vw;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  position: relative;
+}
+
+.card-2 p{
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 1vw;
+  transform: translateY(50px);
+}
+
+.card-2 ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 20px;
+}
+
+.card-2 ul li{
+  font-size: 1.2rem;
+}
+
+.card-3{
+  border: 2px solid wheat;
+  color: white;
+  height: 50vmin;
+  width: 16rem;
+  padding: 1.5vw;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  position: relative;
+}
+
+.card-3 p{
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 1vw;
+  transform: translateY(50px);
+}
+
+.card-3 ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 20px;
+}
+
+.card-3 ul li{
+  font-size: 1.2rem;
+}
+.cup-1{
+  width: 6vw;
+  height: 6vw;
+  position: absolute;
+  top: -40px;
+}
+
+.cup-2{
+  width: 6vw;
+  height: 6vw;
+  position: absolute;
+  top: -40px;
+}
+.cup-3{
+  width: 6vw;
+  height: 6vw;
+  position: absolute;
+  top: -40px;
+}
+
+.img-one {
+  background: url(Images/1.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.img-two {
+  background: url(Images/3.png);
+  background-position: center;
+  background-size: cover;
+}
+.img-three {
+  background: url(Images/4.png);
+  background-position: center;
+  background-size: cover;
+}
+
+hr{
+  width: 50%;
+  margin: 0 auto;
+}
+
+footer{
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.heading{
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
+
+.heading span{
+  color: #deab5f;
+}
+
+.heading-p{
+  font-size: 1.2rem;
+  color: white;
+}
+
+.about-us{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  width: 20rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  width: 20rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.opening-house{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  width: 20rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright{
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  padding-top: 1.2vw;
+  text-align: center;
+}
+
+.copyright span{
+  color: #deab5f;
+}
+
+@media (max-width:600px) {
+  .menu{
+  font-size: 1.5rem;
+  display: block;
+  color: white;
+}
+
+.nav-part-2 p{
+  display: none;
+}
+
+nav{
+  justify-content: space-between;
+  padding: 2vw 5vw;
+  height: 7vh;
+}
+
+.top{
+  background-position: bottom;
+}
+.text-top{
+  font-size: 9vw;
+}
+
+.text-bottom{
+  font-size: 8.5vw;
+}
+.cup-1{
+  width: 15vw;
+  height: 15vw;
+}
+
+.cup-2{
+  width: 15vw;
+  height: 15vw;
+}
+
+.cup-3{
+  width: 15vw;
+  height: 15vw;
+}
+
+}
+
+@media (max-width:1000px) {
+  .our-story-content{
+  width: 100%;
+  padding: 10vw;
+}
+
+.img-our-story{
+  transform: translateX(-110px);
+  scale: 0.75;
+}
+
+.our-story-content{
+  transform: translateY(-70px);
+}
+
+.enjoy{
+  flex-direction: column;
+}
+
+.enjoy-content{
+  width: 80%;
+}
+
+.img-enjoy img{
+  width: 35vh;
+}
+
+
+
+.card-1{
+  height: 50vh;
+}
+
+.card-2{
+  height: 50vh;
+}
+.card-3{
+  height: 50vh;
+}
+
+.product-cards{
+  gap: 100px;
+}
+
+.cup-1{
+  width: 10vw;
+  height: 10vw;
+}
+
+.cup-2{
+  width: 10vw;
+  height: 10vw;
+}
+
+.cup-3{
+  width: 10vw;
+  height: 10vw;
+}
+
+}
+
+@media (max-width:1000px) and (min-width:700px){
+  .products{
+  height: 170%;
+}
+}
+
+@media (max-width:700px) {
+  .products{
+    height: 220%;
+  }
+
+  footer{
+    height: 80%;
+  }
+
+  .copyright{
+    font-size: 1.1rem;
+  }
+}
