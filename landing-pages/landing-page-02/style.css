@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(143, 194, 199);
+  margin: 2rem;
+}
+
+.main {
+  width: calc(100vw - 4rem);
+  background-color: rgb(230, 230, 230);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 5rem;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 7rem 5rem;
+  gap: 40px;
+  width: 45%;
+}
+
+.heading-1 {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif,
+    sans-serif;
+}
+
+.heading-2 {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif,
+    sans-serif;
+}
+
+.hero-p {
+  font-size: 1.5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 2rem;
+}
+
+.hero-p span {
+  background-color: rgb(54, 54, 54);
+  color: white;
+  font-weight: 600;
+  padding: 0rem 0.7rem;
+  padding-top: 0.2rem;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.img {
+  width: 36rem;
+  height: 100vh;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-bottom: 9rem;
+}
+
+.item {
+  width: 30rem;
+}
+
+.item img {
+  width: 100%;
+  height: 36rem;
+}
+
+.item p{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(54, 54, 54);
+    padding-bottom: 1.2rem;
+    padding-top: 1.2rem;
+}
+
+footer{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10rem;
+}
+
+.footer-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  gap: 40px;
+  padding: 2rem;
+}
+
+.footer-logo{
+  font-size: 5rem;
+  font-weight: lighter;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.footer-p{
+  font-size: 1.2rem;
+}
+
+.footer-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 2rem;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.col-heading{
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.col-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 1.2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media (max-width: 1000px) {
+  .hero {
+    width: 75%;
+  }
+}
+
+@media (max-width: 700px) {
+  .img {
+    width: 18rem;
+    height: 50vh;
+  }
+
+  .hero {
+    width: 70%;
+  }
+
+  .heading-1 {
+    font-size: 2.5rem;
+  }
+  .heading-2 {
+    font-size: 2.5rem;
+  }
+
+  body {
+    margin: 1rem;
+  }
+
+  .main {
+    width: calc(100vw - 2rem);
+  }
+
+  .hero {
+    padding: 5rem 3rem;
+  }
+  .item img {
+    height: 18rem;
+  }
+
+  .item{
+    width: 18rem;
+  }
+
+  .item p{
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width:1300px) {
+  .footer-1{
+    width: 20rem;
+  }
+}
