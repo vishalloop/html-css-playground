@@ -129,3 +129,29 @@ nav{
     background-size: cover;
     box-shadow: 4px 7px 5px 2px #bcbaba;
 }
+
+@media (max-width: 1200px) {
+    .img-hero{
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .img-summer{
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .hero{
+        padding: 0rem 5rem;
+        padding-top: 10rem;
+        padding-bottom: 5rem;
+    }
+
+    .summer{
+        padding: 0rem 5rem;
+    }
+}
+
+@media (max-width: 850px) {
+    
+}
