@@ -7,9 +7,8 @@ This project focuses on layout structuring, product sections, call-to-actions, a
 
 ## 🔗 Live Demo
 
-👉 https://your-username.github.io/html-css-playground/landing-pages/landing-page-03/
+👉 https://vishalloop.github.io/html-css-playground/landing-pages/landing-page-03/
 
-*(Replace `your-username` with your GitHub username)*
 
 ---
 
@@ -124,3 +123,4 @@ Frontend Developer — learning by building 🚀
 ---
 
 ⭐ If you found this project useful or interesting, feel free to explore the repository and follow my journey.
+
