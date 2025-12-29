@@ -79,6 +79,13 @@ nav{
     color: white;
     background-color: rgb(36, 156, 128);
     padding: 0.7rem 1rem;
+    cursor: pointer;
+}
+
+.shop-now:hover{
+    background-color: white;
+    color: rgb(36, 156, 128);
+    border: 1px solid  rgb(36, 156, 128);
 }
 
 .off{
@@ -87,6 +94,12 @@ nav{
     padding: 0.7rem 1rem;
     border: 2px solid rgb(36, 156, 128);
     background-color: white;
+    cursor: pointer;
+}
+
+.off:hover{
+    color: white;
+    background-color: rgb(36, 156, 128);
 }
 
 .hero-button{
@@ -98,7 +111,6 @@ nav{
     width: 25rem;
     height: 25rem;
     border-radius: 50rem;
-    background-color: aqua;
     background-image: url("./images/5.jpg");
     background-size: cover;
     box-shadow: 4px 7px 5px 2px #bcbaba;
@@ -130,6 +142,234 @@ nav{
     box-shadow: 4px 7px 5px 2px #bcbaba;
 }
 
+.product{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+    margin-top: 5rem;
+}
+
+.row-1{
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.row-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-bt{
+    border: none;
+    color: rgb(36, 156, 128);
+    padding: 0.7rem 1rem;
+    border: 2px solid rgb(36, 156, 128);
+    background-color: white;
+    cursor: pointer;
+}
+
+.product-bt:hover{
+    color: white;
+    background-color: rgb(36, 156, 128);
+}
+
+.product-bt1{
+    border: none;
+    color: rgb(204, 204, 204);
+    padding: 0.7rem 1rem;
+    border: 2px solid rgb(204, 204, 204);
+    background-color: white;
+    cursor: pointer;
+}
+
+.product-bt1:hover{
+    color: rgb(36, 156, 128);
+    border: 2px solid rgb(36, 156, 128);
+}
+
+.row-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.product-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-img{
+    background-color: rgb(237, 242, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 17rem;
+}
+
+.product-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-img img{
+    width: 8rem;
+}
+
+.row-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.product-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.product-content p:nth-child(1){
+    font-size: 0.9rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.product-content p:nth-child(1){
+    font-size: 0.9rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.view{
+    border: none;
+    border-bottom: 1px solid rgb(36, 156, 128);
+    background-color: white;
+    color: rgb(36, 156, 128);
+    font-size: 0.9rem;
+}
+
+.client{
+    width: 99vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 5rem 0rem;
+}
+
+.client-heading{
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.client-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 180px;
+}
+
+.client-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.client-img1{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50rem;
+    background-image: url("./images/6.jpg");
+    background-size: cover;
+}
+
+.client-img2{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50rem;
+    background-image: url("./images/3.jpg");
+    background-size: cover;
+}
+
+.client-img3{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50rem;
+    background-image: url("./images/4.jpg");
+    background-size: cover;
+}
+
+.client-col-content p:nth-child(1){
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.client-col-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 15rem;
+}
+
+footer{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.footer-heading{
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.footer-col{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 @media (max-width: 1200px) {
     .img-hero{
         width: 20rem;
@@ -152,6 +392,36 @@ nav{
     }
 }
 
-@media (max-width: 850px) {
-    
+@media (max-width: 820px) {
+    .column-1{
+        width: 100%;
+    }
+
+    .hero{
+        justify-content: center;
+    }
+
+    .summer{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    .summer-col-2{
+        width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    .heading-1{
+        font-size: 3rem;
+    }
+    .heading-2{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:669px) {
+    .client{
+        height: 150vh;
+    }
 }
