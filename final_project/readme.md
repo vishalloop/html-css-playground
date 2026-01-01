@@ -16,7 +16,8 @@
 
 > This screen recording showcases the complete experience — animations, interactions, responsiveness, and visual flow — across desktop and mobile views.
 
-<video src="./videos/screenrecording.mp4" controls width="100%"></video>
+▶️ **[Watch the full screen recording](./videos/screenrecording.mp4)**  
+*(Includes desktop & mobile experience)*
 
 ---
 
@@ -169,3 +170,4 @@ Frontend Developer • Creative Technologist
 ---
 
 ⭐ If this project inspired you or made you curious, feel free to explore the repository and follow my journey.
+
