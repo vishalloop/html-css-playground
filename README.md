@@ -41,11 +41,11 @@ No JavaScript was used at any stage.
 
 Designing this project was mentally challenging and technically demanding — especially making such a heavy animation-based experience fully responsive. This project pushed my understanding of CSS to its absolute limit and changed how I think about frontend development.
 
-🎥 Screen Recording (Desktop + Mobile)
+## 🎥 Project Walkthrough (Desktop & Mobile)
 
-A full walkthrough of the final project experience
+▶️ **[Watch the full screen recording](final_project/videos/screenrecording.mp4)**  
+*(Includes desktop & mobile experience)*
 
-![Final Project Screen Recording](final_project/videos/screenrecording.mp4)
 
 
 ⚠️ Note: GitHub does not preview videos inline.
@@ -55,8 +55,8 @@ Click the file above to watch the screen recording directly.
 ![Desktop View](final_project/screenshots/desktop_1.png)
 ![Desktop View](final_project/screenshots/desktop_2.png)
 
-![Mobile View](final_project/screenshots/mobile_1.png)
-![Mobile View](final_project/screenshots/mobile_2.png)
+![Mobile View](final_project/screenshots/mobile_1.jpeg)
+![Mobile View](final_project/screenshots/mobile_2.jpeg)
 
 🧪 Other Projects in This Repository
 
