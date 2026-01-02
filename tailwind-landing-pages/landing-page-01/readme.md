@@ -72,7 +72,7 @@ tailwind-landing-page/
 ## 🚀 Live Preview
 
 🔗 **Live Site:**  
-https://vishalloop.github.io/html-css-playground/tailwind-landing-pages/rainbow/
+https://vishalloop.github.io/html-css-playground/tailwind-landing-pages/landing-page-01/
 
 > _(Hosted using GitHub Pages with precompiled Tailwind CSS output)_
 
@@ -83,3 +83,4 @@ https://vishalloop.github.io/html-css-playground/tailwind-landing-pages/rainbow/
 ```bash
 npm install
 npm run build
+
