@@ -15,6 +15,18 @@ Just HTML, CSS, creativity, and patience.
 
 What began with small layout experiments eventually turned into complex, animation-heavy, responsive UI experiences — culminating in my final and most ambitious project.
 
+## 🧩 Tailwind CSS Practice
+
+This repository also includes a collection of **basic landing pages built using Tailwind CSS**.
+
+The goal of these projects is to:
+- understand utility-first workflows
+- practice rapid UI building
+- compare Tailwind with vanilla CSS approaches
+
+📁 Located inside the `tailwind-landing-pages/` folder.
+
+
 ⭐ Final Project — The Centerpiece
 🐜 ART — A CSS-Only Creative Experience
 
