@@ -95,7 +95,7 @@ loops-studio/
 ## 🚀 Live Preview
 
 > **Live Demo:**  
-👉 https://vishalloop.github.io/html-css-playground/tailwind_landing_pages/landing-page-02/
+👉 https://vishalloop.github.io/html-css-playground/tailwind-landing-pages/landing-page-02/
 
 *(Hosted using GitHub Pages with precompiled Tailwind CSS)*
 
@@ -141,5 +141,6 @@ Feel free to improve layouts, accessibility, or extend components.
 Vishal Raj
 Frontend Developer | UI Enthusiast
 GitHub: https://github.com/vishalloop
+
 
 ⭐ If you liked this project, consider starring the repository!
