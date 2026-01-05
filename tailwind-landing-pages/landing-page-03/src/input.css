@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer components{
+    .nav-text{
+        @apply text-[#137548] hover:font-bold hover:border-b-2 p-2 cursor-pointer font-serif tracking-tight;
+    }
+}
