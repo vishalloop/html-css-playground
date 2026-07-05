@@ -2,6 +2,9 @@
 
 A journey of pushing HTML & CSS beyond layouts — into animation, interaction, and storytelling.
 
+🔗 Final Website Link
+👉 https://vishalloop.github.io/html-css-playground/final_project/
+
 📌 About This Repository
 
 This repository started as a simple playground to practice HTML and CSS fundamentals.
